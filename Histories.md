@@ -1,5 +1,5 @@
 # Automating Galaxy workflows using the command line
----
+
 ### A short guide to Planemo
  Following commands were executed in sequence to generate the histories mentioned in the below section: 
 * `git clone https://github.com/usegalaxy-eu/workflow-automation-tutorial.git`
