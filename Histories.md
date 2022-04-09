@@ -57,7 +57,7 @@ with open(job_file_path, 'w') as f:
 
 
 Following are the histories created as a result of above commands:
-* [vcf2lineage test](https://usegalaxy.eu/u/soumyajha9090/h/vcf2lineage-test)
+* [vcf2lineage test(Pangolin)](https://usegalaxy.eu/u/soumyajha9090/h/vcf2lineage-test)
 * [CWL Target History](https://usegalaxy.eu/u/soumyajha9090/h/cwl-target-history)
 * [CWL Target History_1](https://usegalaxy.eu/u/soumyajha9090/h/cwl-target-history-1)
 * [CWL Target History_2](https://usegalaxy.eu/u/soumyajha9090/h/cwl-target-history-2)
