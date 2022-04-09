@@ -16,13 +16,13 @@
 * `printf "hello\nuniverse!" > dataset2.txt`
 * `ls`
 
-* `planemo run tutorial.ga tutorial-init-job.yml --galaxy_url https://usegalaxy.eu --galaxy_user_key WLP1xvoLQ3CQLcNcBMFy9lhGUpC9XXJ --history_name "Test Planemo WF with no_wait" --tags "planemo-tutorial" --no_wait`
+* `planemo run tutorial.ga tutorial-init-job.yml --galaxy_url <SERVER_URL> --galaxy_user_key <YOUR_API_KEY> --history_name "Test Planemo WF with no_wait" --tags "planemo-tutorial" --no_wait`
 
-* `planemo run 28e70623df315753 tutorial-init-job.yml --galaxy_url https://usegalaxy.eu --galaxy_user_key WLP1xvoLQ3CQLcNcBMFy9lhGUpC9XXJ --history_name "Test Planemo WF with Planemo" --tags "planemo-tutorial" --no_wait`
+* `planemo run <WORKFLOW ID> tutorial-init-job.yml --galaxy_url <SERVER_URL> --galaxy_user_key <YOUR_API_KEY> --history_name "Test Planemo WF with Planemo" --tags "planemo-tutorial" --no_wait`
 
-* `planemo profile_create planemo-tutorial --galaxy_url https://usegalaxy.eu --galaxy_user_key WLP1xvoLQ3CQLcNcBMFy9lhGUpC9XXJ`
+* `planemo profile_create planemo-tutorial --galaxy_url <SERVER_URL> --galaxy_user_key <YOUR_API_KEY>`
 
-* `planemo run 28e70623df315753 tutorial-init-job.yml --profile planemo-tutorial --history_name "Test Planemo WF with profile" --tags "planemo-tutorial"`
+* `planemo run <WORKFLOW ID> tutorial-init-job.yml --profile planemo-tutorial --history_name "Test Planemo WF with profile" --tags "planemo-tutorial"`
 
 Following are the histories created as a result of above commands:
 * [Test Planemo WF with no_wait](https://usegalaxy.eu/u/soumyajha9090/h/test-planemo-wf-with-nowait)
